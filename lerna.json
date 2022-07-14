@@ -7,7 +7,7 @@
   "command": {
     "version": {
       "conventionalCommits": true,
-      "changelogPreset": "conventionalcommits",
+      "changelogPreset": "conventionalcommits"
     },
     "publish": {
       "yes": true,
