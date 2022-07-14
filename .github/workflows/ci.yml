@@ -30,6 +30,10 @@ jobs:
     - name: Changed packages
       run: lerna changed
 
+    - name: Skip publish
+      if: ${{ failure() }}
+      run: echo 'No packages changed, skipping publish'
+
     - name: Publish packages
       run: |
         git config user.email "morgan@near.org"
