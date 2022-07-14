@@ -5,11 +5,11 @@
   "command": {
     "version": {
       "conventionalCommits": true,
-      "changelogPreset": "conventionalcommits"
+      "changelogPreset": "conventionalcommits",
+      "message": "chore(release): Publish packages"
     },
     "publish": {
-      "yes": true,
-      "message": "chore(release): Publish packages"
+      "yes": true
     }
   }
 }
