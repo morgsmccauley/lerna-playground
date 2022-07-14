@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  test:
+  publish:
     runs-on: ubuntu-latest
 
     steps:
@@ -21,8 +21,8 @@ jobs:
         node-version: 16.x
         cache: 'yarn'
 
-    - name: Install dependencies
-      run: lerna bootstrap
+    - name: bootstrap dependencies
+      run: yarn bootstrap
 
-    - name: Run tests
-      run: lerna changed
+    - name: Changed packages
+      run: yarn changed
