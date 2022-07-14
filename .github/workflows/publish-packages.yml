@@ -37,7 +37,7 @@ jobs:
     - name: Publish packages
       run: |
         git config user.email "morgan@near.org"
-        git config user.name "morgan"
+        git config user.name "CI"
         lerna publish
       env:
         NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

@@ -9,7 +9,8 @@
       "conventionalCommits": true
     },
     "publish": {
-      "yes": true
+      "yes": true,
+      "message": "chore(release): Publish packages"
     }
   }
 }
