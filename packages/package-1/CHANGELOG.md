@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/morgsmccauley/lerna-playground/compare/@morgs-testing/package-1@0.1.0...@morgs-testing/package-1@0.2.0) (2022-07-14)
+
+
+### Features
+
+* update p1 ([272080a](https://github.com/morgsmccauley/lerna-playground/commit/272080ab6491e31aa0907a41f8ee8db51304d344))
+
+
+
+
+
 # [0.1.0](https://github.com/morgsmccauley/lerna-playground/compare/@morgs-testing/package-1@0.0.5...@morgs-testing/package-1@0.1.0) (2022-07-14)
 
 
