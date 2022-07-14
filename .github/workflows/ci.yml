@@ -22,9 +22,15 @@ jobs:
       with:
         node-version: 16.x
         cache: 'yarn'
+        registry-url: 'https://registry.npmjs.org'
 
     - name: bootstrap dependencies
       run: lerna bootstrap
 
     - name: Changed packages
       run: lerna changed
+
+    - name: Publish packages
+      run: lerna publish
+      env:
+        NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
