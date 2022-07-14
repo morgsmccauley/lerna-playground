@@ -24,7 +24,7 @@ jobs:
         cache: 'yarn'
 
     - name: bootstrap dependencies
-      run: yarn bootstrap
+      run: lerna bootstrap
 
     - name: Changed packages
-      run: yarn changed
+      run: lerna changed
