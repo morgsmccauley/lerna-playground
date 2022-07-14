@@ -6,7 +6,8 @@
   "npmClient": "yarn",
   "command": {
     "version": {
-      "conventionalCommits": true
+      "conventionalCommits": true,
+      "changelogPreset": "conventionalcommits",
     },
     "publish": {
       "yes": true,
