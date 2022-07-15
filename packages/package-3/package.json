@@ -13,15 +13,8 @@
   "files": [
     "lib"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/morgsmccauley/lerna-playground.git"
-  },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
-  "bugs": {
-    "url": "https://github.com/morgsmccauley/lerna-playground/issues"
-  },
-  "homepage": "https://github.com/morgsmccauley/lerna-playground#readme"
+  "gitHead": "0ef588a6e7261b85ab7924fe7e1b72f33522d0a6"
 }
