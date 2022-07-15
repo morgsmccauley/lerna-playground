@@ -15,4 +15,4 @@ jobs:
       - name: Test
         uses: andymckay/labeler@1.0.4
         with:
-          add-labels: "testing"
+          add-labels: "test"
