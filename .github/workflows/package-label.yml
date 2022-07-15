@@ -13,6 +13,6 @@ jobs:
 
     steps:
       - name: Test
-        uses: andymckay/labeler@1.04
+        uses: andymckay/labeler@1.0.4
         with:
           add-labels: "testing"

@@ -31,7 +31,7 @@ jobs:
       run: lerna changed
 
     - name: Skip publish
-      if: ${{ failure() }}
+      if: failure()
       run: echo 'No packages changed, skipping publish'
 
     - name: Publish packages
