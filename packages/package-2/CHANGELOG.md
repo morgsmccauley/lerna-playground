@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.0](https://github.com/morgsmccauley/lerna-playground/compare/@nearmorgs/package-2@1.0.0...@nearmorgs/package-2@1.1.0) (2022-07-15)
+
+
+### Features
+
+* p2 ([447186c](https://github.com/morgsmccauley/lerna-playground/commit/447186cc49f3198f4b60bc2d828a714e50a15b4d))
+
+
+
 ## [1.0.0](https://github.com/morgsmccauley/lerna-playground/compare/@nearmorgs/package-2@0.4.0...@nearmorgs/package-2@1.0.0) (2022-07-14)
 
 
