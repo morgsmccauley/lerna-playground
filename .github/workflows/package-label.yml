@@ -2,8 +2,6 @@ name: Package Labels
 
 on:
   pull_request:
-    types:
-      - opened
     branches:
       - main
 
@@ -12,7 +10,25 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Test
-        uses: andymckay/labeler@1.0.4
-        with:
-          add-labels: "testing"
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
+
+    - name: Setup Node
+      uses: actions/setup-node@v3
+      with:
+        node-version: 16.x
+        cache: 'yarn'
+
+    - name: bootstrap dependencies
+      run: lerna bootstrap
+
+    - name: Get changed packages
+      run: |
+        yarn --silent lerna changed | xargs | sed 's/ /, /g' | cat <(echo -n "CHANGED_PACKAGES=") - >> $GITHUB_ENV
+
+    - name: Add labels
+      uses: andymckay/labeler@1.0.4
+      with:
+        add-labels: "${{ env.CHANGED_PACKAGES }}"
