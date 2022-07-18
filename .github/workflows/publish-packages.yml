@@ -22,13 +22,13 @@ jobs:
       with:
         node-version: 16.x
         cache: 'yarn'
-        registry-url: 'https://registry.npmjs.org'
+        registry-url: 'https://npm.pkg.github.com'
 
     - name: bootstrap dependencies
       run: lerna bootstrap
 
-    - name: Changed packages
-      run: lerna changed
+    # - name: Changed packages
+    #   run: lerna changed
 
     - name: Skip publish
       if: ${{ failure() }}
@@ -38,6 +38,6 @@ jobs:
       run: |
         git config user.email "morgan@near.org"
         git config user.name "CI"
-        lerna publish
+        lerna publish --force-publish
       env:
-        NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
