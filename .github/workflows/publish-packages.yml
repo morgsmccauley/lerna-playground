@@ -3,6 +3,7 @@ name: Publish Packages
 permissions:
   contents: read
   packages: write
+  repository-projects: write
 
 on:
   push:
