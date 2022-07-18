@@ -43,4 +43,4 @@ jobs:
         git config user.name "CI"
         lerna publish --force-publish
       env:
-        NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        NODE_AUTH_TOKEN: ${{ secrets.LERNA_PLAYGROUND }}
