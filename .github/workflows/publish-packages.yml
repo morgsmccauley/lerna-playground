@@ -1,9 +1,6 @@
 name: Publish Packages
 
-permissions:
-  contents: read
-  packages: write
-  repository-projects: write
+permissions: read-all|write-all
 
 on:
   push:
