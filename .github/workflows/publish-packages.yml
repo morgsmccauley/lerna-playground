@@ -1,6 +1,6 @@
 name: Publish Packages
 
-permissions: read-all|write-all
+permissions: write-all
 
 on:
   push:
@@ -25,6 +25,7 @@ jobs:
         node-version: 16.x
         cache: yarn
         registry-url: https://npm.pkg.github.com
+        # scope: '@near'
 
     - name: bootstrap dependencies
       run: lerna bootstrap
