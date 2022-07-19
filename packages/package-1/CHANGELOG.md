@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.1.0](https://github.com/morgsmccauley/lerna-playground/compare/@morgsmccauley/package-1@6.0.0...@morgsmccauley/package-1@6.1.0) (2022-07-19)
+
+
+### Features
+
+* p1 ([376689f](https://github.com/morgsmccauley/lerna-playground/commit/376689f66a8bd1e35271c9c665689bf358873f54))
+
+
+
 ## 6.0.0 (2022-07-19)
 
 
