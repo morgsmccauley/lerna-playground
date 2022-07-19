@@ -10,7 +10,8 @@
       "createRelease": "github"
     },
     "publish": {
-      "yes": true
+      "yes": true,
+      "registry": "https://npm.pkg.github.com"
     }
   }
 }

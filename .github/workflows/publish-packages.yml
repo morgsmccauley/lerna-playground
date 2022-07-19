@@ -1,9 +1,5 @@
 name: Publish Packages
 
-# permissions:
-#   contents: write
-#   packages: write
-
 on:
   push:
     branches:
