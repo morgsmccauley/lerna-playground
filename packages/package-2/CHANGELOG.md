@@ -3,6 +3,30 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.0.0](https://github.com/morgsmccauley/lerna-playground/compare/@lerna-playground/package-2@2.0.0...@lerna-playground/package-2@4.0.0) (2022-07-19)
+
+
+### ⚠ BREAKING CHANGES
+
+* p2
+
+### Features
+
+* p2 ([c75dc70](https://github.com/morgsmccauley/lerna-playground/commit/c75dc701dcd2eabb6dfd8649bd19ba065d580b75))
+* p2 ([b5f49a4](https://github.com/morgsmccauley/lerna-playground/commit/b5f49a432bf44d6b3bb99c217ede1ad3f2a56737))
+
+
+### Bug Fixes
+
+* p1 ([f9cb073](https://github.com/morgsmccauley/lerna-playground/commit/f9cb07353af33677f6adb771e1a01cd5bcfac0db))
+* p2 ([91ef5d0](https://github.com/morgsmccauley/lerna-playground/commit/91ef5d0dbf55932cc4722e4cbf00ad56f5a9954b))
+* p2 ([3a10033](https://github.com/morgsmccauley/lerna-playground/commit/3a1003381ec4403aa68456330c707eb3ea47e4ca))
+* p2 ([f06cb8f](https://github.com/morgsmccauley/lerna-playground/commit/f06cb8f101b5c11c2a5a7c863057b0677deea6a0))
+* p2 ([46236fb](https://github.com/morgsmccauley/lerna-playground/commit/46236fbe5227819aeaed41b8d9aca3c4a470e283))
+* update scopes ([6a7e472](https://github.com/morgsmccauley/lerna-playground/commit/6a7e4728509c0ab4b182e796fa65feddda9c4b7f))
+
+
+
 ## [3.1.3](https://github.com/morgsmccauley/lerna-playground/compare/@nearmorgs/package-2@3.1.2...@nearmorgs/package-2@3.1.3) (2022-07-19)
 
 **Note:** Version bump only for package @nearmorgs/package-2

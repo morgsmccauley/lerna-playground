@@ -3,6 +3,31 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.0.0](https://github.com/morgsmccauley/lerna-playground/compare/@lerna-playground/package-1@3.0.0...@lerna-playground/package-1@5.0.0) (2022-07-19)
+
+
+### ⚠ BREAKING CHANGES
+
+* p1
+
+### Features
+
+* p1 ([1b3f2f6](https://github.com/morgsmccauley/lerna-playground/commit/1b3f2f626994a87579210bcd13b1518559b366f4))
+* update p1 ([2a18993](https://github.com/morgsmccauley/lerna-playground/commit/2a189938820bb243fada0ace181977b436f8d2f5))
+
+
+### Bug Fixes
+
+* p1 ([01e8a15](https://github.com/morgsmccauley/lerna-playground/commit/01e8a1551f6fc5f267425ccae6ecdf7382ecc8de))
+* p1 ([1050cba](https://github.com/morgsmccauley/lerna-playground/commit/1050cba476f06b0ddcc0298acb79839b0cfa333e))
+* p1 ([8d083da](https://github.com/morgsmccauley/lerna-playground/commit/8d083da862792ab726891718473642684a205bb8))
+* p1 ([941a181](https://github.com/morgsmccauley/lerna-playground/commit/941a181c0a247d272c7be926b2ff9107f5a23403))
+* p1 ([a071950](https://github.com/morgsmccauley/lerna-playground/commit/a0719509bec887f8541b0ac61a94a30d5d1a38f1))
+* update p1 ([8c402c3](https://github.com/morgsmccauley/lerna-playground/commit/8c402c30439ad5c3b2e81fa325a5c5362ec8e662))
+* update scopes ([6a7e472](https://github.com/morgsmccauley/lerna-playground/commit/6a7e4728509c0ab4b182e796fa65feddda9c4b7f))
+
+
+
 ## [4.0.3](https://github.com/morgsmccauley/lerna-playground/compare/@nearmorgs/package-1@4.0.2...@nearmorgs/package-1@4.0.3) (2022-07-19)
 
 
