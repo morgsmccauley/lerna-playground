@@ -40,5 +40,5 @@ jobs:
         git config user.name "CI"
         lerna --loglevel debug publish
       env:
-        NODE_AUTH_TOKEN: ${{ secrets.GH_TOKEN }}
-        GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        NODE_AUTH_TOKEN: ${{ github.token }}
+        GH_TOKEN: ${{ github.token }}
