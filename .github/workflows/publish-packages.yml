@@ -23,7 +23,7 @@ jobs:
         node-version: 16.x
         cache: yarn
         registry-url: https://npm.pkg.github.com
-        # scope: '@near'
+        scope: '@nearmorgs'
 
     - name: Install dependencies
       run: yarn install --frozen-lockfile
@@ -39,7 +39,7 @@ jobs:
       run: |
         git config user.email "morgan@near.org"
         git config user.name "CI"
-        lerna publish
+        lerna --loglevel debug publish
       env:
         NODE_AUTH_TOKEN: ${{ secrets.GH_TOKEN }}
         GH_TOKEN: ${{ secrets.GH_TOKEN }}
