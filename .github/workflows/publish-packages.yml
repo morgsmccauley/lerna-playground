@@ -23,7 +23,6 @@ jobs:
         node-version: 16.x
         cache: yarn
         registry-url: https://npm.pkg.github.com
-        scope: '@nearmorgs'
 
     - name: Install dependencies
       run: yarn install --frozen-lockfile
