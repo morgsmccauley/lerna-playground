@@ -1,6 +1,8 @@
 name: Publish Packages
 
-permissions: write-all
+# permissions:
+#   contents: write
+#   packages: write
 
 on:
   push:
