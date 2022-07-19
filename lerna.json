@@ -6,7 +6,8 @@
     "version": {
       "conventionalCommits": true,
       "changelogPreset": "conventionalcommits",
-      "message": "chore(release): Publish packages"
+      "message": "chore(release): Publish packages",
+      "createRelease": "github"
     },
     "publish": {
       "yes": true
