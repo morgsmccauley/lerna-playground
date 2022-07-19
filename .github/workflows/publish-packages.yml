@@ -29,8 +29,8 @@ jobs:
         # registry-url: https://npm.pkg.github.com
         # scope: '@near'
 
-    - name: bootstrap dependencies
-      run: lerna bootstrap
+    - name: Install dependencies
+      run: yarn install --frozen-lockfile
 
     - name: Changed packages
       run: lerna changed
